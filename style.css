@@ -1300,6 +1300,7 @@ button .header__email--btn {
       padding-bottom: 4px;
     }
     .header__email {
+      display: flex;
       flex-direction: column;
       height: auto;
     }
@@ -1310,11 +1311,9 @@ button .header__email--btn {
       line-height: 1.5;
     }
     .header__email--btn {
+      position: static;
       width: 100%;
-      padding: 16px 0;
-      margin: 16px 0;
-      margin-bottom: 0px;
-      line-height: 1.5;
+      margin-top: 16px;
     }
     .header__customers--title {
       font-size: 14px;
