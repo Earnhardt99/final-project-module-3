@@ -1229,7 +1229,7 @@ footer {
   }
 
   .quality__description,
-  .step__description,
+  .steps__description,
   .values__description,
   .testimonials__description {
     padding: 0;
@@ -1243,14 +1243,15 @@ footer {
   .steps__img--wrapper,
   .values__description,
   .values__img,
+  .
   .testimonials__description,
   testimonials__img {
     width: 100%;
     max-width: 448px;
-
   }
+  
 
-  #steps .row, 
+  #steps .row,
   #testimonials .row {
     flex-direction: column;
   }
@@ -1260,7 +1261,7 @@ footer {
     align-items: center;
   }
 
-  .step__decsription {
+  .step__description {
     margin-top: 12px;
     margin-left: 0;
   }
@@ -1313,6 +1314,15 @@ footer {
   }
 }
 
+#pricing .section__title,
+#pricing .section__para {
+      text-align: center;
+    }
+
+#pricing .section__title {
+      font-size: 32px;
+    }
+
 @media (max-width:640px) {
   .section__title {
     line-height: 1.25;
@@ -1359,7 +1369,7 @@ button .header__email--btn {
     }
     #features .section__title,
     #pricing .section__title {
-      font-size: 36px;
+      font-size: 32px;
     }
     .feature__row {
       flex-direction: column;
